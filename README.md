@@ -78,3 +78,20 @@ Just like FinQA, TAT-QA also provides the formulations of arithmetic questions.
 | GANO | National Institute of Advanced Industrial Science and Technology | [Nararatwong et al. (2022)](https://aclanthology.org/2022.aacl-main.72.pdf) | 68.4 | 77.8 | 62.1 | 71.6 |
 | FinMath | Northeastern University | [Li et al. (2022)](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.661.pdf) | 60.5 | 66.3 | 58.6 | 64.1 |
 | TagOp | NUS | [Zhu et al. (2021)](https://aclanthology.org/2021.acl-long.254/) | 55.2 | 62.7 | 50.1 | 58.0 |
+
+### [MultiHiertt](https://github.com/psunlpgroup/MultiHiertt)
+Hierarchical tables, which contain multi-level headers, are common in the real world but are hard to be expressed and be understood by models because of the complex table structure. 
+However, almost all tables of the previous benchmarks are flattened structures without multi-level headers.
+To overcome this challenge, MultiHiertt collects and annotates many hierarchical tables compared with questions.
+| **Model** | **Orgnization** | **Reference** | **Dev-EM** | **Dev-F1** | **Test-EM** | **Test-F1** |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| NAPG | Zhengzhou University + Peng Cheng Lab | [Zhang et al.](https://arxiv.org/pdf/2211.03462.pdf) | - | - | 44.19 | 44.81 |
+| MT2Net | Yale | [Zhao et al.](https://aclanthology.org/2022.acl-long.454.pdf) | 37.05 | 39.96 | 36.22 | 38.43 |
+
+### [GeoTSQA](https://github.com/nju-websoft/TSQA)
+GeoTSQA is the first scenario-based question-answering benchmark with hybrid evidence, which requires retrieving and integrating knowledge from multiple sources and applying general knowledge to a specific case described by the scenario.
+This benchmark is constructed on the multiple-choice questions in the geography domain from Chinese high-school exams.
+Besides tables and text, each question is also provided with four options, from which model should select one as the answer.
+| **Model** | **Orgnization** | **Reference** | **Accuracy** |
+| ---- | ---- | ---- | ---- |
+| TTGen | Nanjing University | [Li et al.](https://arxiv.org/pdf/2101.11429.pdf) | 39.7 |
