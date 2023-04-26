@@ -58,7 +58,8 @@ FinQA annotates the arithmetic answer in a domain-specific language (DSL), which
 
 | **Model** | **Orgnization** | **Reference** | **Dev-Execution Accuracy** | **Dev-Program Accuracy** | **Test-Execution Accuracy** | **Test-Program Accuracy** |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| APOLLP | MSRA + Xiamen University | [Sun et al.](https://arxiv.org/pdf/2212.07249.pdf) | 69.79 | 65.91 | 67.99 | 65.60 |
+| PoT-SC<sub>code-davinci-002</sub> | University of Waterloo | [Chen et al.](https://arxiv.org/abs/2211.12588) | - | - | 68.1 | - |
+| APOLLO | MSRA + Xiamen University | [Sun et al.](https://arxiv.org/pdf/2212.07249.pdf) | 69.79 | 65.91 | 67.99 | 65.60 |
 | ELASTIC | Strath | [Zhang et al. (2022)](https://arxiv.org/pdf/2210.10105.pdf) | - | - | 68.96 | 65.21 |
 | DyRRen | Nanjing University | [Li et al. (2022)](https://arxiv.org/pdf/2211.12668.pdf) | 66.82 | 63.87 | 63.30 | 61.29 |
 | ReasonFuse | CAS | [Xia et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0925231222011444#s0085) | 61.84 | 59.80 | 60.68 | 58.94 |
@@ -73,6 +74,7 @@ Just like FinQA, TAT-QA also provides the formulations of arithmetic questions.
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | RegHNT | CAS | [Lei et al.](https://arxiv.org/pdf/2209.07692.pdf) | 73.6 | 81.3 | 70.3 | 78.0 |
 | UniRPG | Harbin Institute of Technology + JD AI Research | [Zhou et al. (2022)](https://arxiv.org/pdf/2210.08249.pdf) | 70.2 | 77.9 | 67.1 | 76.0 |
+| PoT-SC<sub>code-davinci-002</sub> | University of Waterloo | [Chen et al.](https://arxiv.org/abs/2211.12588) | 70.2 | - | - | - |
 | UniPCQA | CUHK | [Deng et al. (2022)](https://arxiv.org/pdf/2210.08817.pdf) | 68.2 | 75.5 | 63.9 | 72.2 |
 | MHST | NUS | [Zhu et al. (2022)](https://arxiv.org/pdf/2207.11871.pdf) | 68.2 | 76.8 | 63.6 | 72.7 |
 | GANO | National Institute of Advanced Industrial Science and Technology | [Nararatwong et al. (2022)](https://aclanthology.org/2022.aacl-main.72.pdf) | 68.4 | 77.8 | 62.1 | 71.6 |
