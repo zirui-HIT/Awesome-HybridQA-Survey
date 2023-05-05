@@ -72,6 +72,7 @@ Additionally, unlike the benchmarks mentioned above, each TAT-QA question is typ
 Just like FinQA, TAT-QA also provides the formulations of arithmetic questions.
 | **Model** | **Orgnization** | **Reference** | **Dev-EM** | **Dev-F1** | **Test-EM** | **Test-F1** |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| AeNER | HSE | [Yarullin et al.](https://www.researchgate.net/publication/368602119_Numerical_Embeddings_for_Reasoning_over_Text_and_Tables?enrichId=rgreq-e188438464b353fa9c8c544a3f222467-XXX&enrichSource=Y292ZXJQYWdlOzM2ODYwMjExOTtBUzoxMTQzMTI4MTEyMDg4MzQ2NEAxNjc2NjYzNDkwNDYz&el=1_x_3&_esc=publicationCoverPdf) | - | - | 75.0 | 83.2 |
 | RegHNT | CAS | [Lei et al.](https://arxiv.org/pdf/2209.07692.pdf) | 73.6 | 81.3 | 70.3 | 78.0 |
 | UniRPG | Harbin Institute of Technology + JD AI Research | [Zhou et al. (2022)](https://arxiv.org/pdf/2210.08249.pdf) | 70.2 | 77.9 | 67.1 | 76.0 |
 | PoT-SC<sub>code-davinci-002</sub> | University of Waterloo | [Chen et al.](https://arxiv.org/abs/2211.12588) | 70.2 | - | - | - |
